@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+
+body {
+    background-color: #F2EFEA;
+}
+
+header {
+    font-size: 10vw;
+    font-family: 'Gochi Hand', cursive;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #6F2B24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width: 10vw;
+}
+
+main {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+main nav {
+    margin-left: 2.1vw;
+    font-family: 'Crimson Text', serif;
+    font-weight: 700;
+    letter-spacing: .3vw;
+
+}
+
+main > p {
+    color: white;
+    background-color: black;
+    width: 12%;
+    font-family: Segoe UI;
+    font-size: 1.5vw;
+    padding: .2vw 1vw
+}
+
+il {
+    color: #6F2B24;
+}
+
+main > p {
+    margin-left: 5vw;
+}
+
+.stockGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 4vw;
+    justify-items: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.card {
+    margin-bottom: 5vw;
+    background-color: white;
+    padding: 1vw;
+}
+
+main img {
+    width: 100%;
+}
+
+.brand {
+    font-family: Segoe UI;
+    font-weight: 900;
+    font-size: 1.4vw;
+    margin: 0;
+    color: #6C6C6C;
+    font-stretch: extra-expanded;
+    text-transform: uppercase;
+}
+
+.title {
+    font-family: 'Crimson Text', serif;
+    font-weight: 500;
+    letter-spacing: .1vw;
+    margin: 0;
+    color: #6C6C6C;
+    border-bottom: 1px solid grey;
+    font-size: 2.2vw;
+    text-transform: uppercase;
+}
+
+.details {
+    margin-top: .4vw;
+    font-family: Segoe UI;
+    font-style: italic;
+    color: #6C6C6C;
+    border: 2px solid whitesmoke;
+    padding: 0.5vw;
+}
+
+.specs {
+    border: 1.5px solid #6F2B24;
+    background-color: white;
+    color: #6F2B24;
+    font-weight: 600;
+    font-family: Segoe UI;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.details p {
+    margin-bottom: 0;
+    margin-top: 1vw;
+    border-bottom: 2px solid whitesmoke;
+    border-bottom-width: 40%;
+    font-size: 1.3vw;
+    position: relative;
+}
+
+.colours1 {
+    width: 1.5vw;
+    height: 1.2vw;
+    background-color: white;
+    position: absolute;
+    left: 6vw;
+
+}
+
+.colours2 {
+    width: 1.5vw;
+    height: 1.2vw;
+    background-color: white;
+    position: absolute;
+    left: 8vw;
+
+}
+
+.colours3 {
+    width: 1.5vw;
+    height: 1.2vw;
+    background-color: white;
+    position: absolute;
+    left: 10vw;
+
+}
+
+.colours4 {
+    width: 1.5vw;
+    height: 1.2vw;
+    background-color: white;
+    position: absolute;
+    left: 12vw;
+
+}
+
+.spanStyle {
+    font-size: 1.5vw;
+    color: black;
+    font-weight: 500;
+}
