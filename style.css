@@ -167,3 +167,8 @@ main img {
     color: black;
     font-weight: 500;
 }
+
+#bikeDescription {
+    position: absolute;
+    transform: 50%;
+}
