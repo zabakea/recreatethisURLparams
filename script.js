@@ -38,6 +38,9 @@ function showProducts(bike) {
 
     clone.querySelector(".brand").textContent = bike._embedded["wp:term"][0][0].name;
 
+    //clone link
+    clone.querySelector("a").href = "subindex.html?bike=" + bike.title.rendered;
+
 
     //appending
     document.querySelector(".stockGrid").appendChild(clone);

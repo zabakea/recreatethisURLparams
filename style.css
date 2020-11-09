@@ -117,6 +117,12 @@ main img {
     margin-bottom: 1vw;
 }
 
+.specs:hover {
+    color: firebrick;
+    transform: scale(1.2);
+    border: 1.5px solid firebrick;
+}
+
 .details p {
     margin-bottom: 0;
     margin-top: 1vw;
@@ -169,6 +175,23 @@ main img {
 }
 
 #bikeDescription {
-    position: absolute;
-    transform: 50%;
+    margin: auto;
+    width: 50vw;
+    height: 60vh;
+    background-color: white;
+}
+
+.bikeDetails {
+    position: relative;
+}
+
+.productImg {
+    width: 40%;
+    margin: auto;
+    height: auto;
+    display: block;
+}
+
+.boje {
+    position: relative;
 }
